@@ -41,19 +41,18 @@ This project evaluates the feasibility of solving multiple business tasks for an
 
 ## ✅ Key Outcomes
 
-- Demonstrated how linear algebra supports practical ML workflows  
-- Confirmed that predictive models outperform a dummy baseline for classification tasks  
-- Built a regression model for payment count estimation  
-- Verified that privacy-preserving transformations can protect data without degrading linear regression quality  
-
+- Applied linear algebra concepts to practical machine learning workflows  
+- Evaluated model performance against a baseline classifier  
+- Implemented linear regression for payment count estimation  
+- Designed and validated a privacy-preserving data transformation approach
 ---
 
 ## 📊 Results
 
-- The classification model outperformed the dummy baseline, confirming predictive value.
-- The linear regression model successfully estimated payment counts.
-- After applying an invertible linear transformation to the feature matrix, model predictions remained unchanged.
-- The privacy-preserving transformation successfully masked sensitive information without degrading model performance.
+- Classification model outperformed the dummy baseline.  
+- Linear regression successfully estimated payment counts.  
+- Predictions remained unchanged after applying an invertible linear transformation.  
+- Sensitive data was effectively masked without degrading model performance.
 
 The experiment demonstrates that linear algebra can be used both for predictive modeling and for secure data transformation.
 
